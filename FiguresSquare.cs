@@ -60,5 +60,11 @@ namespace MindboxTest
             return false;
         }
 
+        //Ответ на задачу 3:
+        //Таблица Products с полями Name и ID, Таблица Categories с полями Name и ID, ассоциативная таблица ProductsCategories с полями CategoryId и ProductId
+        //SELECT Products.Name, Categories.Name AS Category FROM Products 
+        //    LEFT JOIN ProductsCategories ON Products.ID = ProductsCategories.ProductID 
+        //    LEFT JOIN Categories ON ProductsCategories.CategoryID = Categories.ID
+
     }
 }
